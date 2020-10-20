@@ -1,8 +1,4 @@
 gem_group :development, :test do
-  gem 'pg'
-  gem 'pry'
-  gem 'devise'
-
   gem 'rspec-rails'
   gem 'factory_bot_rails'
   gem 'capybara'
