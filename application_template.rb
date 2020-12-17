@@ -17,3 +17,7 @@ initializer 'generators.rb', <<-CODE
       controller_specs: false
   end
 CODE
+
+after_bundle do
+  generate 'rspec:install'
+end
